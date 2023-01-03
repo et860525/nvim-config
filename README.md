@@ -16,3 +16,20 @@ Requires [Neovim](https://neovim.io/) (>= 0.8)
 - [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag) - Use treesitter to auto close and auto rename html tag
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - A highly extendable fuzzy finder over lists
 - [telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) - File Browser extension for telescope.nvim
+- [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) - A snazzy buffer line
+- [norcalli/nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) - A high-performance color highlighter
+- [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) - A highly performant UI
+- [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration for buffers
+- [dinhhuy258/git.nvim](https://github.com/dinhhuy258/git.nvim) - Simple clone of the plugin [vim-fugitive](https://github.com/tpope/vim-fugitive)
+
+# Troubleshooting
+
+If you get an error, you need to install some environment-required plugin:
+
+- LSP configs server settings: [LSP configurations](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md)
+- nvim-treesitter installation
+  - Mac
+    `brew install tree-sitter`
+  - Ubuntu
+    `sudo apt install build-essential`
+

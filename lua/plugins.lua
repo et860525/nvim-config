@@ -73,4 +73,21 @@ packer.startup(function(use)
   -- File browser extension for tetescope
   use "nvim-telescope/telescope-file-browser.nvim"
 
+  -- A snazzy buffer lualine
+  use {'akinsho/bufferline.nvim', tag = "v3.*"}
+
+  -- A high-performance color highlighter
+  use 'norcalli/nvim-colorizer.lua'
+
+  -- Built-in lsp with a highly performant UI
+  use { 
+    'glepnir/lspsaga.nvim',
+    branch = 'main'
+  }
+
+  -- Git integration for buffers
+  use 'lewis6991/gitsigns.nvim'
+
+  -- Simple clone of the plugin vim-fugitive
+  use 'dinhhuy258/git.nvim'
 end)
