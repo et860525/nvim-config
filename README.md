@@ -1,5 +1,7 @@
 # Neovim-lua
 
+My environment is **Ubuntu 20.04(WSL2)**
+
 # Plugins
 
 Requires [Neovim](https://neovim.io/) (>= 0.8)
