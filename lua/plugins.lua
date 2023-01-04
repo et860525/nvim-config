@@ -95,4 +95,8 @@ packer.startup(function(use)
   use 'MunifTanjim/prettier.nvim'
   use 'jose-elias-alvarez/null-ls.nvim'
 
+  -- Manage external LSP server
+  use 'williamboman/mason.nvim'
+  use 'williamboman/mason-lspconfig.nvim'
+
 end)

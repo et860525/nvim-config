@@ -22,6 +22,8 @@ Requires [Neovim](https://neovim.io/) (>= 0.8)
 - [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration for buffers
 - [dinhhuy258/git.nvim](https://github.com/dinhhuy258/git.nvim) - Simple clone of the plugin [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [MunifTanjim/prettier.nvim](https://github.com/MunifTanjim/prettier.nvim) - A prettier plugin
+- [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim) - Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.
+- [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) - A bridges of mason.nvim with the lspconfig plugin
 
 # Troubleshooting
 
@@ -33,4 +35,4 @@ If you get an error, you need to install some environment-required plugin:
     `brew install tree-sitter`
   - Ubuntu
     `sudo apt install build-essential`
-
+- ptettier insatllation: `npm install -g @fsouza/prettierd`
