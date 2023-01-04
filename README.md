@@ -21,6 +21,7 @@ Requires [Neovim](https://neovim.io/) (>= 0.8)
 - [glepnir/lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) - A highly performant UI
 - [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration for buffers
 - [dinhhuy258/git.nvim](https://github.com/dinhhuy258/git.nvim) - Simple clone of the plugin [vim-fugitive](https://github.com/tpope/vim-fugitive)
+- [MunifTanjim/prettier.nvim](https://github.com/MunifTanjim/prettier.nvim) - A prettier plugin
 
 # Troubleshooting
 

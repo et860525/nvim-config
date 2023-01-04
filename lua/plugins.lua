@@ -90,4 +90,9 @@ packer.startup(function(use)
 
   -- Simple clone of the plugin vim-fugitive
   use 'dinhhuy258/git.nvim'
+
+  -- Prettier
+  use 'MunifTanjim/prettier.nvim'
+  use 'jose-elias-alvarez/null-ls.nvim'
+
 end)
