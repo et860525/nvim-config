@@ -47,19 +47,17 @@ packer.startup(function(use)
   -- Autopair
   use {
     'windwp/nvim-autopairs',
-    config = function()
-      require('nvim-autopairs').setup{
-        disable_filetype = { 'TelescopePromt', 'vim' }
-      }
-    end
+    require('nvim-autopairs').setup({
+      disable_filetype = { "TelescopePrompt" , "vim" },
+    })
   }
 
   -- Autotag
   use {
     'windwp/nvim-ts-autotag',
-    config = function ()
-      require("nvim-autopairs").setup{}
-    end
+    require('nvim-ts-autotag').setup({
+      filetypes = { "html" , "xml" },
+    })
   }
 
   -- Highly extendable fuzzy finder
@@ -80,7 +78,7 @@ packer.startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
 
   -- Built-in lsp with a highly performant UI
-  use { 
+  use {
     'glepnir/lspsaga.nvim',
     branch = 'main'
   }
