@@ -14,4 +14,9 @@ treesitter.setup{
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
+
+  autotag = {
+    enable = true,
+    filetypes = { "html", "xml" },
+  }
 }

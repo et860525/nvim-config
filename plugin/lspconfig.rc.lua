@@ -13,7 +13,7 @@ require('lspconfig')['tsserver'].setup{
   filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" }
 }
 
-require('lspconfig')['sumneko_lua'].setup{
+require('lspconfig')['lua_ls'].setup{
   on_attach = on_attach,
   settings = {
     Lua = {

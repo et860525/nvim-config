@@ -53,12 +53,7 @@ packer.startup(function(use)
   }
 
   -- Autotag
-  use {
-    'windwp/nvim-ts-autotag',
-    require('nvim-ts-autotag').setup({
-      filetypes = { "html" , "xml" },
-    })
-  }
+  use {'windwp/nvim-ts-autotag'}
 
   -- Highly extendable fuzzy finder
   use {
